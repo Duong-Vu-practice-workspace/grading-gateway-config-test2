@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: vucongtuanduong/grading-gateway:IMAGE_TAG_REPLACEMENT
+          image: DOCKERHUB_USERNAME/gateway:IMAGE_TAG_REPLACEMENT
           ports:
             - containerPort: 8080
           env:
