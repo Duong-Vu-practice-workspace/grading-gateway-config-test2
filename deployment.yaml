@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: vucongtuanduong/grading-gateway:c40a674718c9841e2eb7f268e52aa5681a5f589c
+          image: vucongtuanduong/grading-gateway:IMAGE_TAG_REPLACEMENT
           ports:
             - containerPort: 8080
           env:
